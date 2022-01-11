@@ -18,7 +18,7 @@ const Title = styled.h2`
 `;
 
 const Card = styled.div`
-    width: 80%;
+    width: 100%;
     margin: 0 5px;
     margin-bottom: 30px;
 `;
@@ -37,6 +37,10 @@ const OrangeHighlight = styled.span`
 const CardsWrapper = styled.div`
     display: flex;
     width: 80%;
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+    }
 `;
 
 const Input = styled.input`
@@ -97,7 +101,7 @@ const SecondFormOfVerb = () => {
                 </Card>
             </CardsWrapper>
 
-            <Card>
+            <Card style={{width: '80%'}}>
                 <CardHeading>Exceptions</CardHeading>
                 <p>1. The verb ends with the letter <RedHighlight>-y</RedHighlight> after the consonant (e.g. -dy, -ry)<br/>Construction: first form without <RedHighlight>-y</RedHighlight> + <RedHighlight>i</RedHighlight> + <OrangeHighlight>-ed</OrangeHighlight><br/><br/>Examples:<br/>study » stud<RedHighlight>i</RedHighlight><OrangeHighlight>ed</OrangeHighlight></p>
 
