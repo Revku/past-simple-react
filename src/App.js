@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav'
 import Header from './components/Header/Header'
 import Construction from './components/Construction/Construction'
 import Examples from './components/Examples/Examples'
+import SecondFormOfVerb from './components/SecondFormOfVerb/SecondFormOfVerb'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -31,6 +32,7 @@ const App = () => {
       <Header />
       <Construction />
       <Examples />
+      <SecondFormOfVerb />
     </>
   )
 }
