@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledWrapper = styled.div`
-    height: 85vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
