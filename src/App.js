@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 
 import Nav from './components/Nav/Nav'
+import Header from './components/Header/Header'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -25,6 +26,7 @@ const App = () => {
       <GlobalStyle />
 
       <Nav />
+      <Header />
     </>
   )
 }
