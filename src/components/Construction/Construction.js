@@ -7,7 +7,7 @@ const StyledWrapper = styled.div`
     text-align: center;
     display: flex;
     justify-content: center;
-    margin: 80px 0;
+    padding: 80px 0;
     align-items: center;
     flex-direction: column;
 
@@ -90,6 +90,7 @@ const Table = styled.table`
 const Title = styled.h2`
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 80px;
 `;
 
 const Construction = () => {
