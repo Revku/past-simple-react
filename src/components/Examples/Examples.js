@@ -41,7 +41,7 @@ const Item = styled.div`
 
 const Examples = () => {
     return (
-        <StyledWrapper>
+        <StyledWrapper id="examples">
             <Title>Examples</Title>
 
             <ExamplesContainer>

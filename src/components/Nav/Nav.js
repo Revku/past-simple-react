@@ -35,9 +35,9 @@ const Nav = () => {
                 <Heading>Past Simple</Heading>
             </div>
             <Links>
-                <Item href="#">Item</Item>
-                <Item href="#">Item</Item>
-                <Item href="#">Item</Item>
+                <Item href="./#construction">Construction</Item>
+                <Item href="./#examples">Examples</Item>
+                <Item href="./#secondformofverb">Second Form Of Verb</Item>
             </Links>
         </StyledWrapper>
     )

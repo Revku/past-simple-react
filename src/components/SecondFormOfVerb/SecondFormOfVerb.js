@@ -77,7 +77,7 @@ const SecondFormOfVerb = () => {
     }
 
     return (
-        <StyledWrapper>
+        <StyledWrapper id="secondformofverb">
             <Title>Second Form Of Verb</Title>
 
             <CardsWrapper>

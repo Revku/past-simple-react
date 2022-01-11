@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Construction from './components/Construction/Construction'
 import Examples from './components/Examples/Examples'
 import SecondFormOfVerb from './components/SecondFormOfVerb/SecondFormOfVerb'
+import Footer from './components/Footer/Footer'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -33,6 +34,7 @@ const App = () => {
       <Construction />
       <Examples />
       <SecondFormOfVerb />
+      <Footer />
     </>
   )
 }
