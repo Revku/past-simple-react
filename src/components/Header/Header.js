@@ -13,6 +13,10 @@ const StyledWrapper = styled.div`
 const Title = styled.h1`
     font-size: 50px;
     text-transform: uppercase;
+
+    @media (max-width: 600px) {
+        font-size: 35px;   
+    }
 `;
 
 const Example = styled.div`
@@ -22,14 +26,25 @@ const Example = styled.div`
     text-align: center;
     border-radius: 5px;
     margin: 15px 0;
+
+    @media (max-width: 600px) {
+        width: 300px;
+        font-size: 14px;  
+    }
 `;
 
 const ColorHighlight = styled.span`
     color: #FFA41B;
+    
 `;
 
 const SubTitle = styled.p`
     width: 450px;
+
+    @media (max-width: 600px) {
+        width: 300px;
+        font-size: 14px;  
+    }
 `;
 
 const CTA = styled.button`
