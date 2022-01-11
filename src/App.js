@@ -3,6 +3,7 @@ import styled, { createGlobalStyle } from 'styled-components'
 
 import Nav from './components/Nav/Nav'
 import Header from './components/Header/Header'
+import Construction from './components/Construction/Construction'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -27,6 +28,7 @@ const App = () => {
 
       <Nav />
       <Header />
+      <Construction />
     </>
   )
 }
