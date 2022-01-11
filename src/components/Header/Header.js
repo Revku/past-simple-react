@@ -55,6 +55,11 @@ const CTA = styled.button`
     margin-top: 22px;
     border: none;
     cursor: pointer;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
 `;
 
 const Header = () => {
@@ -65,7 +70,7 @@ const Header = () => {
                 <ColorHighlight>We watched</ColorHighlight> the news last night.
             </Example>
             <SubTitle>The simple past is a verb tense that is used to talk about things that happened or existed before now. </SubTitle>
-            <CTA>Read More</CTA>
+            <CTA><a href="./#construction">Read More</a></CTA>
         </StyledWrapper>
     )
 }

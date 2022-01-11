@@ -95,7 +95,7 @@ const Title = styled.h2`
 
 const Construction = () => {
     return (
-        <StyledWrapper>
+        <StyledWrapper id="construction">
             <Title>Construction</Title>
             <ConstructionContainer>
                 <Card>
